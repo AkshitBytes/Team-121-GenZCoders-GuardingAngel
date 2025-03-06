@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fake Call</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="fake_call2.css">
 </head>
 <body>
+    <script>
+        // Reset the call status when on this page
+        localStorage.removeItem("callAnswered");
+    </script>
+
     <div class="phone-frame">
-        <div class="speaker-notch"></div>
         <div class="status-bar">
             <span class="time">9:41 AM</span>
             <span class="icons">
